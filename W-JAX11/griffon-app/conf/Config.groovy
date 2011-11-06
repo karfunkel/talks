@@ -79,6 +79,7 @@ presentation {
             "BeispielPainter3",
             "BeispielPainter4",
             "BeispielPainter5",
+            "Download",
             "VielenDank"
     ]
 }

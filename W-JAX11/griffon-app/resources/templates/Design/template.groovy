@@ -101,14 +101,14 @@ createFooter = { slide, page ->
         if (type == 'Intro') {
             footer = panel {
                 migLayout(layoutConstraints: 'fill', columnConstraints: '5%[left][center][right]5%', rowConstraints: '10[center]10')
-                widget(new ImagePanel(), imagePath: 'BeOne.png', scale: 0.25f)
+                widget(new ImagePanel(), imagePath: 'BeOne_W.png', scale: 0.25f)
                 label('W-JAX 2011', cssClass: 'footer-text', constraints: 'grow')
                 label('7. - 11. November 2011, München, Germany', cssClass: 'footer-text2', constraints: 'grow')
             }
         } else {
             footer = panel {
                 migLayout(layoutConstraints: 'fill', columnConstraints: '5%[left][center][right]5%', rowConstraints: '10[center]10')
-                widget(new ImagePanel(), imagePath: 'BeOne.png', scale: 0.25f)
+                widget(new ImagePanel(), imagePath: 'BeOne_W.png', scale: 0.25f)
                 label('', constraints: 'grow')
                 label(page.toString(), cssClass: "footer$type")
             }
