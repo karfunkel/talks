@@ -14,8 +14,7 @@ import javax.swing.UIManager
 slide(
         title: 'Ein Hintergrundbild für unsere Fenster',
         clientPropertySubIndex: 4,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill, wrap 1', columnConstraints: '100[center, grow, fill]100', rowConstraints: '10[center]10')
     label('JRootPane ist die Basis eines Window', cssClass: 'H4')

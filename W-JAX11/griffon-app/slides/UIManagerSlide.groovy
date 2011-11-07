@@ -4,8 +4,7 @@ import org.fife.ui.rsyntaxtextarea.SyntaxConstants
 slide(
         title: 'UIManager = Mittler zwischen Komponente und L&F',
         clientPropertySubIndex: 3,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
             columnConstraints: '100[center]100',

@@ -1,10 +1,10 @@
-import com.bric.image.transition.vanilla.BlendTransition2D
+import com.bric.image.transition.spunk.CollapseTransition2D
 
 slide(
         title: 'Gliederung',
         clientPropertySubIndex: 2,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        transition: new CollapseTransition2D()
 ) {
     migLayout(layoutConstraints: 'fill, flowy',
               columnConstraints: '100[center]100',

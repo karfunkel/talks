@@ -13,8 +13,7 @@ slide(
         title: 'Ausgangspunkt Nimbus Look and Feel',
         master: 'Image',
         clientPropertySubIndex: 4,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill', columnConstraints: '100[center, grow, fill]100', rowConstraints: '10[center]10')
     rtextScrollPane(constraints: 'center') {

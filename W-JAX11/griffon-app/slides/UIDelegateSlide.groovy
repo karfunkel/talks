@@ -4,8 +4,7 @@ import org.fife.ui.rsyntaxtextarea.SyntaxConstants
 slide(
         title: 'ComponentUI ist der Vater aller UIDelegates',
         clientPropertySubIndex: 3,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
             columnConstraints: '100[center]100',

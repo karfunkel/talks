@@ -6,7 +6,6 @@ slide(
         title: 'GfxBuilder macht Java2D einfacher',
         clientPropertySubIndex: 4,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D(),
         slideActions: [
                 { revert ->
                     edt {

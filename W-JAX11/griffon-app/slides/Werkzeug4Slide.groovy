@@ -4,8 +4,7 @@ import griffon.plugins.slideware.ImagePanel
 slide(
         title: 'Kleine Helferlein kosten nichts - Fontbetrachter',
         clientPropertySubIndex: 1,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
               columnConstraints: '100[fill][center][fill]100',

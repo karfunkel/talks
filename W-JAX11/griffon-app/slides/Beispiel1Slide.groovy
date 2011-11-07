@@ -15,7 +15,6 @@ slide(
         title: 'Beispiel ohne L&F',
         clientPropertySubIndex: 4,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D(),
         slideActions: [
                 { revert ->
                     if (revert) {

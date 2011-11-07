@@ -1,4 +1,4 @@
-import com.bric.image.transition.vanilla.BlendTransition2D
+import com.bric.image.transition.vanilla.MotionBlendTransition2D
 import griffon.plugins.slideware.ImagePanel
 
 slide(
@@ -6,7 +6,7 @@ slide(
         master: 'Image',
         clientPropertySubIndex: 1,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        transition: new MotionBlendTransition2D()
 ) {
     migLayout(layoutConstraints: 'fill',
               columnConstraints: '[center, fill]',

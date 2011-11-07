@@ -5,8 +5,7 @@ slide(
         title: 'Die Winkel mit GIMP/Photoshop messen',
         master: 'Image',
         clientPropertySubIndex: 1,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
               columnConstraints: '[center, fill][center, fill]',

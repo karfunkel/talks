@@ -16,7 +16,6 @@ slide(
         title: 'Nimbus Default-Keys sind hierarchisch, ähnlich CSS',
         clientPropertySubIndex: 4,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D(),
         slideActions: [
                     { revert ->
                     edt {

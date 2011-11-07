@@ -29,7 +29,6 @@ slide(id: 'bspNimbus',
         title: 'Nimbus Look and Feel kann angepasst werden',
         clientPropertySubIndex: 4,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D(),
         slideActions: [
                 { revert ->
                     if (revert) {

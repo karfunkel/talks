@@ -4,8 +4,7 @@ import org.fife.ui.rsyntaxtextarea.SyntaxConstants
 slide(
         title: 'Das Look&Feel ist eine Sammlung von UI Delegates',
         clientPropertySubIndex: 3,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
             columnConstraints: '100[center]100',

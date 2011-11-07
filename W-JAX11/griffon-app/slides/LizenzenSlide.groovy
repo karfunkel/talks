@@ -3,8 +3,7 @@ import com.bric.image.transition.vanilla.BlendTransition2D
 slide(
         title: 'Rechte werden gerne vergessen',
         clientPropertySubIndex: 2,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
             columnConstraints: '100[center]100',

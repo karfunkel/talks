@@ -5,8 +5,7 @@ slide(
         title: 'Swing-MVC ist eher Presentation Model',
         master: 'Image',
         clientPropertySubIndex: 3,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill, wrap 1',
               columnConstraints: '[left, fill]',

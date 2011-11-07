@@ -1,12 +1,11 @@
-import com.bric.image.transition.vanilla.BlendTransition2D
 import griffon.plugins.slideware.ImagePanel
 
 slide(
         title: 'Die Abstände mit dem Lineal messen',
         master: 'Image',
         clientPropertySubIndex: 1,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
+
 ) {
     migLayout(layoutConstraints: 'fill',
               columnConstraints: '[center, fill]',

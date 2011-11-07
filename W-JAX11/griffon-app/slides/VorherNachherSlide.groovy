@@ -6,15 +6,19 @@ slide(
         master: 'Image',
         clientPropertySubIndex: 4,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D(),
         slideActions : [
                 { revert ->
                     if (revert) {
-                        Aufgabe_label.visible = false
-                        Aufgabe_image.visible = false
+                        Aufgabe_vorher.visible = false
                     } else {
-                        Aufgabe_label.visible = true
-                        Aufgabe_image.visible = true
+                        Aufgabe_vorher.visible = true
+                    }
+                },
+                { revert ->
+                    if (revert) {
+                        Aufgabe_nachher.visible = false
+                    } else {
+                        Aufgabe_nachher.visible = true
                     }
                 }
         ]
@@ -23,7 +27,7 @@ slide(
               columnConstraints: '[center, fill][center, fill]',
               rowConstraints: '[center][center, fill]')
     label("Vorher", cssClass: 'H2w')
-    widget(new ImagePanel(), imagePath: 'beispiel/Original.png', constraints: 'grow')
-    label(id: 'Aufgabe_label', "Nachher", cssClass: 'H2w', visible: false)
-    widget(id: 'Aufgabe_image', new ImagePanel(), imagePath: 'beispiel/Ergebnis.png', constraints: 'grow', visible: false)
+    widget(id: 'Aufgabe_vorher', new ImagePanel(), imagePath: 'beispiel/Original.png', constraints: 'grow', visible: false)
+    label("Nachher", cssClass: 'H2w')
+    widget(id: 'Aufgabe_nachher', new ImagePanel(), imagePath: 'beispiel/Ergebnis.png', constraints: 'grow', visible: false)
 }

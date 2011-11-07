@@ -14,12 +14,11 @@ import javax.swing.UIManager
 slide(
         title: 'UI-Delegates können auch lokal verwendet werden',
         clientPropertySubIndex: 4,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
-    migLayout(layoutConstraints: 'fill, wrap 1', columnConstraints: '100[center, grow, fill]100', rowConstraints: '10[center]10')
+    migLayout(layoutConstraints: 'fill, wrap 1', columnConstraints: '100[center, grow, fill]100', rowConstraints: '10[top]')
     label('UI-Eigenschaft für alle JToggleButtons', cssClass: 'H4')
-    rtextScrollPane(constraints: 'center') {
+    rtextScrollPane(constraints: 'center, grow') {
         rsyntaxTextArea(editable: false,
                 syntaxEditingStyle: SyntaxConstants.SYNTAX_STYLE_GROOVY, tabSize: 4, cssClass: 'codeEditor', text: '''application(id: 'window', title: 'FishyGames', ...) {
 // ...

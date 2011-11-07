@@ -5,8 +5,7 @@ slide(
         title: 'Farben mit der Pipette bestimmen',
         master: 'Image',
         clientPropertySubIndex: 1,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
               columnConstraints: '[center, fill]',

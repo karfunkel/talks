@@ -19,7 +19,6 @@ slide(
         clientPropertySubIndex: 4,
         master: 'Image',
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D(),
         slideActions: [
                 { revert ->
                     if (revert) {

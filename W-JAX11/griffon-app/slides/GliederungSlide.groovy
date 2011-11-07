@@ -1,9 +1,9 @@
-import com.bric.image.transition.vanilla.BlendTransition2D
+import com.bric.image.transition.vanilla.MotionBlendTransition2D
 
 slide(
         title: 'Gliederung',
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        transition: new MotionBlendTransition2D()
 ) {
     migLayout(layoutConstraints: 'fill, flowy',
               columnConstraints: '100[center]100',

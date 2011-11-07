@@ -6,8 +6,7 @@ slide(
         title: 'Unsere Painter bekommen je eine Methode',
         clientPropertySubIndex: 4,
         master: 'Image',
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'wrap 1', columnConstraints: '100[center, grow, fill]100', rowConstraints: '30[grow, fill]')
     rtextScrollPane(constraints: 'center') {

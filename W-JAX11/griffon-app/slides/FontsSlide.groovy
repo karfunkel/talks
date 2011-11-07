@@ -5,8 +5,7 @@ slide(
         title: 'Fonts können meistens ausgelesen werden',
         master: 'Image',
         clientPropertySubIndex: 1,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill, wrap 1',
               columnConstraints: '[left, fill]',

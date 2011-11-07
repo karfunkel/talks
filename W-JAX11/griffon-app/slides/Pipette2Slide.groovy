@@ -5,12 +5,11 @@ slide(
         title: 'Farbverläufe sollte man nachprobieren',
         master: 'Image',
         clientPropertySubIndex: 1,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill, wrap 1',
               columnConstraints: '[left, fill]',
               rowConstraints: '[center][center, fill]')
-    label("Farbverläufe immer nachstellen", cssClass: 'H2w')
+    label("Es gibt verschiedene Farbmodelle", cssClass: 'H2w')
     widget(new ImagePanel(), imagePath: 'prototypen/Pipette2.png', constraints: 'grow')
 }

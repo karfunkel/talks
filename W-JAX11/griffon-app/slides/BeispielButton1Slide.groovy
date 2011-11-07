@@ -17,7 +17,6 @@ slide(
         title: 'Buttons können mehrere Status haben',
         clientPropertySubIndex: 4,
         backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D(),
         slideActions: [
                 { revert ->
                     if (revert) {

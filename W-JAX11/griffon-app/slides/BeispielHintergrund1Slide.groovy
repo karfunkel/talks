@@ -15,8 +15,7 @@ slide(
         title: 'Einzelteile lassen sich besser skalieren',
         master: 'Image',
         clientPropertySubIndex: 4,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill',
               columnConstraints: '100[center, fill]100',

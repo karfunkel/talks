@@ -4,8 +4,7 @@ import griffon.plugins.slideware.ImagePanel
 slide(
         title: 'Grafiksoftware ist für jeden verfügbar',
         clientPropertySubIndex: 1,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill, wrap 2',
               columnConstraints: '100[center, fill][center, fill]100',

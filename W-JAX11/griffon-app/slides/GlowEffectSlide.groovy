@@ -14,8 +14,7 @@ slide(
         title: 'Highlight- oder Glow-Effekt',
         master: 'Image',
         clientPropertySubIndex: 4,
-        backgroundPainter: backgroundPainter,
-        transition: new BlendTransition2D()
+        backgroundPainter: backgroundPainter
 ) {
     migLayout(layoutConstraints: 'fill, wrap 1',
               columnConstraints: '100[center, fill]100',
