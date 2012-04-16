@@ -17,7 +17,6 @@ slide(
             label('Mehrere DependencyInjection Möglichkeiten', cssClass: 'L1')
             label('Minimale Eigenimplementierung', cssClass: 'L2')
             label('Spring', cssClass: 'L2')
-            label('Guice', cssClass: 'L2')
             label('Weld (CDI)', cssClass: 'L2')
         }
     }]).view.root)

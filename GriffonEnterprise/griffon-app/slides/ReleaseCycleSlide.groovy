@@ -13,8 +13,8 @@ slide(
         panel(content) {
             label('Releases alle 3-4 Monate', cssClass: 'L1')
             label('V 0.9.5 am 5. April', cssClass: 'L2')
-            label('V 0.9.6 geplant Jul/Aug 2012', cssClass: 'L2')
-            label('V 1.0 geplant Nov/Dez 2012', cssClass: 'L2')
+            label('V 0.9.6 geplant Mai 2012', cssClass: 'L2')
+            label('V 1.0 geplant 2012', cssClass: 'L2')
             label('In Planung: Hotfix system', cssClass: 'L1')
         }
     }]).view.root)

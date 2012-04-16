@@ -18,7 +18,7 @@ slide(
             label('Können MVC-Gruppen erstellen', cssClass: 'L2')
             label('Ein Archetype ist eine ZIP-Datei mit Descriptor', cssClass: 'L2')
             label('Archetypen können wie Plugins verwaltet werden', cssClass: 'L2')
-            label('griffon create-app --archetype <Projektname>', cssClass: 'L2')
+            label('griffon create-app --archetype <Archetype> <Projekt>', cssClass: 'L2')
         }
     }]).view.root)
 }

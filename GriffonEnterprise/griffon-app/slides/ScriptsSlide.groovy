@@ -65,7 +65,7 @@ target(name: 'myscript',
 setDefaultTarget('myscript')'''
                 )
             }
-            widget(title: 'Gant-Skripte', buildMVCGroup('agenda', null, [content: {
+            widget(title: 'Gant-Skripte', buildMVCGroup('agenda', null, [gap: 10, content: {
                 panel(content) {
                     label('Scripte sind Gant-Skripte', cssClass: 'L1')
                     label('Gant ist Ant als Groovy-Script', cssClass: 'L1')

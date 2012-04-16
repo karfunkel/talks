@@ -75,6 +75,18 @@ master_Default = [
                         migLayout(layoutConstraints: 'fill', columnConstraints: '280[center, grow]280', rowConstraints: '[center]')
                         label(text: "$page / ${app.config.presentation.order.size()}".toString(), cssClass: 'footer')
                     }
+                    panel(constraints: BOTTOM, opaque: false) {
+                        migLayout(layoutConstraints: 'fill', columnConstraints: '5[left][center, grow][right]5', rowConstraints: '[bottom]5')
+                        if (page > 2)
+                            label(text: "${app.config.presentation.order[page - 2]}".toString(), cssClass: 'nextSlide')
+                        else
+                            label(text: '', cssClass: 'nextSlide')
+                        label(text: '', cssClass: 'nextSlide')
+                        if (page < app.config.presentation.order.size() - 1)
+                            label(text: "${app.config.presentation.order[page]}".toString(), cssClass: 'nextSlide')
+                        else
+                            label(text: '', cssClass: 'nextSlide')
+                    }
                 }
             }
             footer
@@ -103,7 +115,7 @@ master_Intro = [
         // Component representing the header
         // Header may aswell be a Closure with two parameters (Slide slide, int page)
         // returning a Component
-        header:{ slide, page ->
+        header: { slide, page ->
             def header
             noparent {
                 header = panel(cssClass: 'headerPanel') {

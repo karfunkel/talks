@@ -37,7 +37,7 @@ slide(
                     label('Addons', cssClass: 'L2')
                     label('Artefakte', cssClass: 'L2')
                     label('MVC Gruppen', cssClass: 'L2')
-                    label('WindowManager (Swing)', cssClass: 'L2')
+                    label('WindowManager (Swing, SWT)', cssClass: 'L2')
                     label('Handler verfügbar', cssClass: 'L1')
                     label('Lifecycle', cssClass: 'L2')
                     label('Platform', cssClass: 'L2')

@@ -31,6 +31,14 @@
     swing-vertical-text-position: bottom;
     swing-valign: bottom;
 }
+.nextSlide {
+    font-size: '${((screenWidth * 10)/1024) as int}';
+    color: #888888;
+    swing-horizontal-text-position: right;
+    swing-halign: right;
+    swing-vertical-text-position: bottom;
+    swing-valign: bottom;
+}
 .codeEditor {
     font-family: Monospaced;
     font-size: '${((screenWidth * 14)/1024) as int}';

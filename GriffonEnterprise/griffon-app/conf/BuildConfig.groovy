@@ -32,7 +32,7 @@ environments {
 
         griffon {
             jars {
-                sign = true
+                sign = false
                 pack = true
                 destDir = "${basedir}/staging"
             }

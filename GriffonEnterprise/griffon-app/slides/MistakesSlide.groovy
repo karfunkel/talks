@@ -26,9 +26,10 @@ slide(
                 panel(content) {
                     label('Korrektes UI-Threadhandling in Java ist aufwändig', cssClass: 'L1')
                     label('Griffon bietet eigene Methoden', cssClass: 'L2')
-                    label('execSync', cssClass: 'L3')
-                    label('execAsync', cssClass: 'L3')
-                    label('execOutside', cssClass: 'L3')
+                    label('execInsideUISync', cssClass: 'L3')
+                    label('execInsideUIAsync', cssClass: 'L3')
+                    label('execOutsideUI', cssClass: 'L3')
+                    label('execFuture', cssClass: 'L3')
                     label('Controller-Actions automatisch ausserhalb UI Thread', cssClass: 'L2')
                     label('Verhalten anpassbar', cssClass: 'L3')
                 }
