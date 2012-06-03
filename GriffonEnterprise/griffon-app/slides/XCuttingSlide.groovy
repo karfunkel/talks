@@ -31,7 +31,7 @@ slide(
                     label('Groovy Metaprogramming hilft oft', cssClass: 'L1')
                 }
             }]).view.root)
-            widget(title: 'Manager und Handler', buildMVCGroup('agenda', null, [content: {
+            widget(title: 'Manager und Handler', buildMVCGroup('agenda', null, [gap: 10, content: {
                 panel(content) {
                     label('Managerklassen verfügbar', cssClass: 'L1')
                     label('Addons', cssClass: 'L2')

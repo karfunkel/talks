@@ -19,7 +19,7 @@ slide(
         label("alexander.klein@beone-group.com", cssClass: 'PEmailW', constraints: 'wrap')
         label("@saschaklein", cssClass: 'PEmailW', constraints: 'wrap')
         label("http://gplus.to/karfunkel", cssClass: 'PEmailW', constraints: 'wrap')
-        label("https://github.com/karfunkel", cssClass: 'PEmailW', constraints: 'wrap')
+        label("https://github.com/karfunkel/talks", cssClass: 'PEmailW', constraints: 'wrap')
 
         label('', constraints: 'grow')
     }

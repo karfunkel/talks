@@ -16,7 +16,8 @@ log4j = {
 
 presentation {
     screenWidth = 1280
-    screenHeight = 800
+    screenHeight = 768
+    printRatio = 1.0f
     fileName = '/tmp/Griffon_Enterprise.pdf'
     subTitles = ['Plattform', 'Architektur', 'Migration', 'Integration', 'Einarbeitung']
     subTitlesPerRow = 5

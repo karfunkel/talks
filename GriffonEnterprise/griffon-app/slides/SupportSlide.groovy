@@ -26,7 +26,7 @@ slide(id: 'Support',
                 columnConstraints: '[center]',
                 rowConstraints: '10[center]10')
         tabbedPane(id: 'tab_Support', tabPlacement: JTabbedPane.BOTTOM, cssClass: 'footer', constraints: 'center, grow') {
-            widget(title: 'Informationen', buildMVCGroup('agenda', null, [gap: 5, content: {
+            widget(title: 'Informationen', buildMVCGroup('agenda', null, [gap: 1, content: {
                 panel(content) {
                     label('Griffon Home', cssClass: 'L1')
                     label('http://griffon.codehaus.org', cssClass: 'L3')

@@ -50,11 +50,13 @@ slide(
                 migLayout(layoutConstraints: 'flowy',
                         columnConstraints: '[left, grow, fill]',
                         rowConstraints: '[center]')
+                /*
                 widget(buildMVCGroup('media', null, [
                         author: 'Alexander Klein',
                         date: new Date(),
                         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nunc velit, molestie at facilisis nec, accumsan eget nibh. Aenean eu tortor vitae ligula auctor porttitor at ullamcorper mi. Ut ipsum augue, sodales eu accumsan pellentesque, pellentesque non libero. Praesent iaculis arcu at purus volutpat molestie vulputate mi pellentesque. Vestibulum id nulla nulla.',
                 ]).view.root)
+                */
                 widget(buildMVCGroup('media', null, [
                         icon: 'AlexanderKlein2.jpg',
                         author: 'Alexander Klein',
@@ -133,12 +135,6 @@ class DialogController {
                 rsyntaxTextArea(editable: false,
                         syntaxEditingStyle: SyntaxConstants.SYNTAX_STYLE_GROOVY, tabSize: 4, cssClass: 'codeEditor',
                         text: '''widget(buildMVCGroup('media', null, [
-        author: 'Alexander Klein',
-        date: new Date(),
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nunc velit, molestie at facilisis nec, accumsan eget nibh. Aenean eu tortor vitae ligula auctor porttitor at ullamcorper mi. Ut ipsum augue, sodales eu accumsan pellentesque, pellentesque non libero. Praesent iaculis arcu at purus volutpat molestie vulputate mi pellentesque. Vestibulum id nulla nulla.',
-]).view.root)
-
-widget(buildMVCGroup('media', null, [
         icon: 'AlexanderKlein2.jpg',
         author: 'Alexander Klein',
         date: new Date(),

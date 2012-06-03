@@ -28,7 +28,7 @@ slide(
                 columnConstraints: '[center]',
                 rowConstraints: '10[center]10')
         tabbedPane(id: 'tab_Environment', tabPlacement: JTabbedPane.BOTTOM, cssClass: 'footer', constraints: 'center, grow') {
-            widget(title: 'Datenbanken', buildMVCGroup('agenda', null, [content: {
+            widget(title: 'Datenbanken', buildMVCGroup('agenda', null, [gap: 10, content: {
                 panel(content) {
                     label('Plugins für viele Datenbanken (27)', cssClass: 'L1')
                     label('SQL', cssClass: 'L2')
@@ -36,6 +36,7 @@ slide(
                     label('Objekt basiert', cssClass: 'L2')
                     label('LDAP', cssClass: 'L2')
                     label('geplant nach V1.0: GORM', cssClass: 'L1')
+                    label('geplant nach V1.0: Scaffolding', cssClass: 'L1')
                 }
             }]).view.root)
             widget(title: 'Kommunikation', buildMVCGroup('agenda', null, [content: {

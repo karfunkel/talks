@@ -8,6 +8,7 @@ class AgendaController {
     AgendaView view
 
     void mvcGroupInit(Map args) {
+        //Map x = ConfigUtils.getMergedArguments(args)
         MVCGroupConfiguration configuration = args.configuration
         model.content = args.content ?: configuration?.config?.content
         model.gap = args.gap ?: configuration?.config?.gap ?: 20
@@ -16,3 +17,5 @@ class AgendaController {
         model.backgroundColor = args.backgroundColor ?: configuration?.config?.backgroundColor ?: new Color(0, 0, 0, 0)
     }
 }
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<configuration>
+    <xml fileName="${sys:user.home}/.myApp/user.xml" config-optional="true"/>
+
+    <properties fileName="${sys:user.language}/i18n_custom.properties"/>
+    <properties fileName="${sys:user.language}/i18n.properties"/>
+
+    <system/>
+</configuration>
