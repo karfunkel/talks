@@ -1,0 +1,208 @@
+* {
+    font-family: SansSerif;
+    font-size: '${((screenWidth * 14)/1024) as int}';
+    color: #333333;
+}
+.image {
+    swing-halign: center;
+    swing-valign: middle;
+}
+.imageReference {
+    color: #ffffff;
+    font-size: '${((screenWidth * 8)/1024) as int}';
+    swing-horizontal-text-position: center;
+    swing-halign: center;
+    swing-vertical-text-position: bottom;
+    swing-valign: bottom;
+}
+.header {
+    font-weight: bold;
+    font-size: '${((screenWidth * 32)/1024) as int}';
+    color: #FFFFFF;
+    swing-horizontal-text-position: center;
+    swing-halign: center;
+}
+.footer {
+    font-weight: bold;
+    font-size: '${((screenWidth * 24)/1024) as int}';
+    color: #FFFFFF;
+    swing-horizontal-text-position: center;
+    swing-halign: center;
+    swing-vertical-text-position: bottom;
+    swing-valign: bottom;
+}
+.nextSlide {
+    font-size: '${((screenWidth * 10)/1024) as int}';
+    color: #888888;
+    swing-horizontal-text-position: right;
+    swing-halign: right;
+    swing-vertical-text-position: bottom;
+    swing-valign: bottom;
+}
+.codeEditor {
+    font-family: Monospaced;
+    font-size: '${((screenWidth * 18)/1024) as int}';
+}
+.codeEditorSmall {
+    font-family: Monospaced;
+    font-size: '${((screenWidth * 14)/1024) as int}';
+}
+.H0{
+    font-weight: bold;
+    font-size: '${((screenWidth * 72)/1024) as int}';
+    swing-halign: center;
+}
+.H1{
+    font-weight: bold;
+    font-size: '${((screenWidth * 48)/1024) as int}';
+    swing-halign: center;
+}
+.H1w{
+    font-weight: bold;
+    font-size: '${((screenWidth * 48)/1024) as int}';
+    swing-halign: center;
+    color: #FFFFFF;
+}
+.H1o{
+    font-weight: bold;
+    font-size: '${((screenWidth * 48)/1024) as int}';
+    swing-halign: center;
+    color: #333333;
+}
+.H2 {
+    font-weight: bold;
+    font-size: '${((screenWidth * 40)/1024) as int}';
+    swing-halign: center;
+}
+.H2w {
+    font-weight: bold;
+    font-size: '${((screenWidth * 40)/1024) as int}';
+    swing-halign: center;
+    color: #FFFFFF;
+}
+.H3 {
+    font-weight: bold;
+    font-size: '${((screenWidth * 32)/1024) as int}';
+    swing-halign: center;
+}
+.H3w {
+    font-weight: bold;
+    font-size: '${((screenWidth * 32)/1024) as int}';
+    swing-halign: center;
+    color: #FFFFFF;
+}
+.H4 {
+    font-weight: bold;
+    font-size: '${((screenWidth * 24)/1024) as int}';
+    swing-halign: center;
+}
+.H4w {
+    font-weight: bold;
+    font-size: '${((screenWidth * 24)/1024) as int}';
+    swing-halign: center;
+    color: #FFFFFF;
+}
+.H5 {
+    font-weight: bold;
+    font-size: '${((screenWidth * 20)/1024) as int}';
+    swing-halign: center;
+}
+.H5w {
+    font-weight: bold;
+    font-size: '${((screenWidth * 20)/1024) as int}';
+    swing-halign: center;
+    color: #FFFFFF;
+}
+
+.L1, .L2, .L3, .L1o, .L2o, .L3o, .L1s {
+    font-weight: bold;
+    swing-horizontal-text-position: leading;
+    swing-halign: left;
+    swing-vertical-text-position: middle;
+    swing-valign: middle;
+}
+
+.L1 {
+    font-size: '${((screenWidth * 32)/1024) as int}';
+    padding-left: 30px;
+}
+.L1o {
+    font-size: '${((screenWidth * 32)/1024) as int}';
+    padding-left: 30px;
+    color: #0D408D;
+}
+.L2 {
+    font-size: '${((screenWidth * 24)/1024) as int}';
+    padding-left: 60px;
+}
+.L2o {
+    font-size: '${((screenWidth * 24)/1024) as int}';
+    padding-left: 60px;
+    color: #0D408D;
+}
+.L3 {
+    font-size: '${((screenWidth * 20)/1024) as int}';
+    padding-left: 90px;
+}
+.L3o {
+    font-size: '${((screenWidth * 20)/1024) as int}';
+    padding-left: 90px;
+    color: #0D408D;
+}
+.L1s {
+    font-size: '${((screenWidth * 20)/1024) as int}';
+    padding-left: 30px;
+}
+
+.subtitle, .subtitle_active {
+    font-weight: bold;
+    font-size: '${((screenWidth * 16)/1024) as int}';
+    swing-horizontal-text-position: center;
+    swing-halign: center;
+    swing-vertical-text-position: bottom;
+    swing-valign: bottom;
+    color: #FFFFFF;
+}
+.subtitle_active {
+    color: #333333;
+}
+
+.PName, .PEmail, .PInfo {
+    font-family: SansSerif;
+    font-weight: bold;
+    swing-horizontal-text-position: leading;
+    swing-halign: left;
+    swing-vertical-text-position: bottom;
+    swing-valign: bottom;
+}
+
+.PName {
+    font-size: '${((screenWidth * 32)/1024) as int}';
+}
+.PNameW {
+    font-weight: bold;
+    font-size: '${((screenWidth * 32)/1024) as int}';
+    color: #FFFFFF;
+}
+.PNameO {
+    font-weight: bold;
+    font-size: '${((screenWidth * 32)/1024) as int}';
+    color: #333333;
+}
+.PEmail {
+    font-size: '${((screenWidth * 20)/1024) as int}';
+    color: #333333;
+}
+.PEmailW {
+    font-weight: bold;
+    font-size: '${((screenWidth * 20)/1024) as int}';
+    color: #333333;
+}
+.PUrl {
+    font-size: '${((screenWidth * 16)/1024) as int}';
+    color: #333333;
+}
+.PInfo {
+    font-size: '${((screenWidth * 20)/1024) as int}';
+}
+
