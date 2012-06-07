@@ -58,6 +58,15 @@ slide(id: 'root',
                     cssClass: 'codeEditor',
                     text: ResourceBundleSlide.getResource('data/resourceManager4.groovy').text
             ]).view.root, title: 'Injection continued')
+            panel(title: 'Future', opaque: false) {
+                migLayout(layoutConstraints: 'fill, flowy')
+                label('ResourceManager will merge into Griffon Core', cssClass: 'L1')
+                label('Application.groovy will be customizable', cssClass: 'L2')
+                label('Locale- or customer-dependent MVC-groups / -artifacts / -configuration', cssClass: 'L3')
+                label('Config.groovy will be customizable', cssClass: 'L2')
+                label('Your own configuration will be customizable too', cssClass: 'L3')
+                label('I18n is a core feature at last', cssClass: 'L2')
+            }
         }
     }]
     ).view.root)

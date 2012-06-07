@@ -16,6 +16,7 @@ log4j = {
 presentation {
     screenWidth = 1024
     screenHeight = 768
+    fileName = '/tmp/ResourceManagement.pdf'
     template = 'Default'
     subTitles = ['ResourceBundle', 'Commons Configuration', 'Swing Application Framework', null, 'ConfigSlurper', 'ConfigParser', 'I18n-Support', 'Resources']
     order = [
