@@ -4,3 +4,4 @@ staging
 build
 out
 output
+*.pdf
